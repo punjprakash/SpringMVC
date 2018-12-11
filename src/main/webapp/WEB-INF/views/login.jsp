@@ -7,11 +7,10 @@
 <title>Yahoooo!!!! ${name}</title>
 </head>
 <body>
-<h1>${error}</h1>
-	<form action="/login.do" method="post">
+   <p><font color="red">${errorMessage}</font></p>
+	<form action="/login" method="POST">
 		Enter your name <input type="text" name="name" /> Password <input type="text" name="password" />  <input
 			type="submit" />
 	</form>
-
 </body>
 </html>
