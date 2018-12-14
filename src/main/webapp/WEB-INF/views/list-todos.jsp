@@ -7,7 +7,7 @@
 <title>Todos for ${name}</title>
 </head>
 <body>
-<H1>Your Todos</H1>
+<H1>${name} Todos</H1>
  ${todos}
 </body>
 </html>

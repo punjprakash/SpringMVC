@@ -8,5 +8,7 @@
 </head>
 <body>
 	<h1>Welcome ${name}</h1>
+	Now you can see <a href ="/list-todos"> These are your Todos </a>
+		
 </body>
 </html>
